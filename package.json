@@ -1,0 +1,21 @@
+{
+  "name": "@ccyphers/log_watcher",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc && node dist/test/sanity.js",
+    "lint": "eslint . --ext .ts"
+  },
+  "main": "watcher.js",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "license": "https://www.gnu.org/licenses/agpl-3.0.en.html" ,
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ccyphers/log_watcher.git"
+  }
+}
